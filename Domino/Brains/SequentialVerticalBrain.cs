@@ -16,8 +16,8 @@ namespace Domino.Lib.Brains
             PlaceFirstDomino();
 
             for (var p = 0; p < Constants.cMaxPasses; p++)
-                for (var y = 0; y < MaxHeight; y++)
-                    for (var x = 0; x < MaxWidth; x++)
+                for (var x = 0; x < MaxWidth; x++)
+                    for (var y = 0; y < MaxHeight; y++)
                     {
                         var placed = false;
 
