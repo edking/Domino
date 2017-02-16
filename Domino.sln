@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domino.Lib", "Domino\Domino.Lib.csproj", "{0C172D0B-5C01-42C6-986B-BC1E286DF963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domino.Console", "Domino.Console\Domino.Console.csproj", "{F838FE6E-5A33-4535-8973-AD3F67BB5D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domino.Desktop", "Domino.Desktop\Domino.Desktop.csproj", "{4B3353C9-994A-4B7C-BEBF-80A6500506A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomBoard", "RandomBoard\RandomBoard.csproj", "{7203E1F2-1B02-4447-85AD-063E7652F894}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{CC39DA78-E997-4A3C-A0F9-0E4E63E52F02}"
+	ProjectSection(SolutionItems) = preProject
+		Data\domino_4_1515.txt = Data\domino_4_1515.txt
+		Data\domino_6_1515.txt = Data\domino_6_1515.txt
+		Data\domino_9_1515.txt = Data\domino_9_1515.txt
+		Data\dominos.txt = Data\dominos.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C172D0B-5C01-42C6-986B-BC1E286DF963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C172D0B-5C01-42C6-986B-BC1E286DF963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C172D0B-5C01-42C6-986B-BC1E286DF963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C172D0B-5C01-42C6-986B-BC1E286DF963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F838FE6E-5A33-4535-8973-AD3F67BB5D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F838FE6E-5A33-4535-8973-AD3F67BB5D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F838FE6E-5A33-4535-8973-AD3F67BB5D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F838FE6E-5A33-4535-8973-AD3F67BB5D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3353C9-994A-4B7C-BEBF-80A6500506A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3353C9-994A-4B7C-BEBF-80A6500506A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3353C9-994A-4B7C-BEBF-80A6500506A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3353C9-994A-4B7C-BEBF-80A6500506A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7203E1F2-1B02-4447-85AD-063E7652F894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7203E1F2-1B02-4447-85AD-063E7652F894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7203E1F2-1B02-4447-85AD-063E7652F894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7203E1F2-1B02-4447-85AD-063E7652F894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
